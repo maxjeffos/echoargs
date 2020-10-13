@@ -18,8 +18,6 @@ jobs:
 #       run: cargo build --verbose
     - name: Make Bundle
       run: ./scripts/make-bundle.sh
-    - name: Make Release
-      run: ./scripts/make-bundle.sh
         
     - name: Create Release
       id: create_release
